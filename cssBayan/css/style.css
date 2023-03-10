@@ -75,7 +75,9 @@ h2 {
   margin: 0 auto;
   margin-top: 27px;
   opacity: 0;
-  transition: opacity 0.8s;
+  transition: 0.4s;
+  width: 0;
+  height: 0;
 }
 
 .secondMeme:hover img {
@@ -83,9 +85,91 @@ h2 {
   margin: 0 auto;
   margin-top: 27px;
   opacity: 1;
+  width: 400px;
+  height: 400px;
+  transition: opacity 1s;
 }
 
 .secondHeader:hover {
   font-weight: 700;
   color: #ee6a23;
+  transition: 0.4s;
+}
+
+.thirdMeme img {
+  display: block;
+  margin: 0 auto;
+  margin-top: 27px;
+  opacity: 0;
+  transition: 0.4s;
+  width: 0;
+  height: 0;
+}
+
+.thirdMeme:hover img {
+  display: block;
+  margin: 0 auto;
+  margin-top: 27px;
+  opacity: 1;
+  width: 400px;
+  height: 400px;
+  transition: opacity 1s;
+}
+
+.thirdHeader:hover {
+  font-weight: 700;
+  color: #ee6a23;
+  transition: 0.4s;
+}
+
+.fourthMeme img {
+  display: block;
+  margin: 0 auto;
+  margin-top: 27px;
+  opacity: 0;
+  transition: 0.4s;
+  width: 0;
+  height: 0;
+}
+
+.fourthMeme:hover img {
+  display: block;
+  margin: 0 auto;
+  margin-top: 27px;
+  opacity: 1;
+  width: 400px;
+  height: 400px;
+  transition: opacity 1s;
+}
+
+.fourthHeader:hover {
+  font-weight: 700;
+  color: #ee6a23;
+  transition: 0.4s;
+}
+
+.fifthMeme img {
+  display: block;
+  margin: 0 auto;
+  margin-top: 27px;
+  opacity: 0;
+  transition: 0.4s;
+  width: 0;
+  height: 0;
+}
+
+.fifthMeme:hover img {
+  display: block;
+  margin: 0 auto;
+  margin-top: 27px;
+  opacity: 1;
+  width: 400px;
+  height: 400px;
+  transition: opacity 1s;
+}
+
+.fifthHeader:hover {
+  font-weight: 700;
+  color: #ee6a23;
+  transition: 0.4s;
 }
