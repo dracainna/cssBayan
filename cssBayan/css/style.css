@@ -36,6 +36,10 @@ h1 {
   border: 1px solid #fac66c;
 }
 
+main:hover {
+  cursor: pointer;
+}
+
 h2 {
   margin-top: 27px;
   font-family: "Roboto";
@@ -53,4 +57,35 @@ h2 {
   width: 300px;
   height: 0px;
   border: 1px solid #724d23;
+}
+
+.firstMeme img {
+  display: block;
+  margin: 0 auto;
+  margin-top: 27px;
+}
+
+.firstHeader {
+  font-weight: 700;
+  color: #ee6a23;
+}
+
+.secondMeme img {
+  display: block;
+  margin: 0 auto;
+  margin-top: 27px;
+  opacity: 0;
+  transition: opacity 0.8s;
+}
+
+.secondMeme:hover img {
+  display: block;
+  margin: 0 auto;
+  margin-top: 27px;
+  opacity: 1;
+}
+
+.secondHeader:hover {
+  font-weight: 700;
+  color: #ee6a23;
 }
